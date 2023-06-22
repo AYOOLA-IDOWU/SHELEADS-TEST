@@ -1,6 +1,8 @@
 body{
     background-color: white;
-}.d-flex >img{
+    margin: 0;
+}
+.d-flex >img{
     width: 60px;
     height: 60px;
     padding-top: 40px;
@@ -17,63 +19,21 @@ body{
     background-color: #f9f9f9;
     height: 150px;
 }
-#start{
+.start{
     height: 100px;
-    background-color: white;
-    margin-top: 20px;
-}
-#start > h2{
-    text-align: center;
-    color: blue;
+    padding-top: 20px;
 }
 .box > div{
-    height: 180px;
-    width: 250px;
+    height: 160px;
+    width: 200px;
     background-color: #f9f9f9;
+    padding: 15px 9px;
 }
 h5{
     font-size: small;
     padding: 8px 8px;
 }
-.box{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    height: 150px;
-}
-.me{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    height: 500px;
-}
-.me >h4{
-    color: black;
-}
-.you{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    height: 500px;
-}
-.we{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    height: 500px;
-}
-.she{
-    background-color: black;
-    height: 300px;
-}
+
 input{
     height: 50px;
     border-radius: 12px;

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg w-100">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="./IMAGE/SLA.png" alt="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,7 +94,7 @@
 </nav>
 
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
+<div id="carouselExampleFade" class="carousel slide carousel-fade w-100">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./IMAGE/high2.png" class="d-block w-100" alt="...">
@@ -121,90 +121,109 @@
   <div class="col-12 mt-2 w-100">
     <h2 class="text-center">FEATURE ON</h2>
     
-    <div class="d-flex">
-        <img src="./IMAGE/howwemadeitinafrica-min.png" alt="">
-        <img src="./IMAGE/sahara-min.png" alt="">
-        <img src="./IMAGE/ventures-1-min.png" alt="">
-        <img src="./IMAGE/download.png" alt="">
-        <img src="./IMAGE/forbes-logo-png-4-1.png" alt="">
+    <div class="d-flex w-100">
+        <img class="col-md-2" src="./IMAGE/howwemadeitinafrica-min.png" alt="">
+        <img class="col-md-2" src="./IMAGE/sahara-min.png" alt="">
+        <img class="col-md-2" src="./IMAGE/ventures-1-min.png" alt="">
+        <img class="col-md-2" src="./IMAGE/download.png" alt="">
+        <img class="col-md-2" src="./IMAGE/forbes-logo-png-4-1.png" alt="">
     </div>
 
-    <div id="start">
+    <div class="text-center text-primary">
         <h2>Start living your very best life now</h2>
     </div>
+
     
-    <div class="d-flex box">
-        <div>
+    <div class="row w-100">
+      <div class="col-sm-3 col-md-3 col-lg-3 mt-2">
+        <div class="card bg-light border-0">
+          <div class="card-body">
+              
             <h4 class="text-primary text-center">Reach your Goals</h4>
-            <h5>We are committed to helping smart and ambitious young African women live their best lives</h5>
+            <h5 class="text-center">We are committed to helping smart and ambitious young African women live their best lives</h5>
+          </div>
         </div>
-
-        <div>
-            <h4 class="text-primary text-center">Get Promoted</h4>
-            <h5>We promote and uplift African talent by showcasing them to the world!</h5>
+      </div>
+  
+      <div class="col-sm-3 mt-2 col-md-3 col-lg-3">
+          <div class="card bg-light border-0">
+            <div class="card-body">
+              <h4 class="text-primary text-center">Get Promoted</h4>
+            <h5 class="text-center">We promote and uplift African talent by showcasing them to the world!</h5>
+              
+            </div>
+          </div>
         </div>
-
-        <div>
+  
+      <div class="col-sm-3 mt-2 col-md-3 col-lg-3">
+        <div class="card bg-light border-0">
+          <div class="card-body">
+            
             <h4 class="text-primary text-center">Grow your Network</h4>
-            <h5>We connect African women to each other through our ever-growing community</h5>
+            <h5 class="text-center">We connect African women to each other through our ever-growing community</h5>
+    
+          </div>
         </div>
-    </div>
+      </div>
+    </div> 
 
     
         <h1 class="text-center text-primary mt-5">Plug in!</h1>
 
-    <section class="d-flex me">
-        <div>
-            <img class="w-75" src="./IMAGE/MMI.svg" alt="">
+    <section class="row w-100">
+        <div class="col-md-6 mt-5">
+            <center><img class="w-75 ms-5" src="./IMAGE/MMI.svg" alt=""></center>
         </div>
 
-        <div class="w-50 mt-5 my-5">
-            <h3><b>SLA Newsletters</b></h3>
-            <h5>
+        <div class="col-md-6 mt-5">
+            <h3 class="text-center"><b>SLA Newsletters</b></h3>
+            <h5 class="text-center">
                 Our newsletters give you access to exclusive resources, <br> career opportunities and the motivation <br> you need to help you achieve your goals
-            </h5> <br> <br>
-            <button class="text-light bg-primary border-0" style="padding: 10px 12px; border-radius: 10px;">SIGN UP HERE</button>
+            </h5> 
+           <center> <button class="text-light bg-primary border-0 mt-5 ms-5 p-3 rounded">SIGN UP HERE</button> </center>
         </div>
-
     </section> 
 
     
-    <div class="you">
+    <div class="row w-100 mt-5">
         
-        <div class="w-25">
-            <h3><b>High Growth Coaching <br> Program</b></h3>
-            <h5>
-                HGCP is a 3-month program designed to identify, support and fund the next generation of Nigeria’s brightest female entrepreneurs. Applications for the #HGCP2022 are now open!
+        <div class="col-md-6 mt-5">
+            <h3 class="text-center"><b>High Growth Coaching <br> Program</b></h3>
+            <h5 class="text-center">
+                HGCP is a 3-month program designed to identify, support and fund <br> the next generation of Nigeria’s brightest female entrepreneurs. <br> Applications for the #HGCP2022 are now open!
             </h5>
-            <button class="text-light bg-primary border-0" style="padding: 10px 12px; border-radius: 10px;">APPLY NOW</button>
+           <center> <button class="text-light bg-primary border-0 p-3 rounded">APPLY NOW</button></center>
         </div>
 
-        <div>
+        <div class="col-md-6 mt-5">
             <img class="w-75" src="./IMAGE/HGCP.svg" alt="">
         </div>
-    </div>
+    </div> 
 
-    <section class="we">
-        <div>
-            <img class="w-75" src="./IMAGE/slay-festival.svg" alt="">
+    <section class="row mt-5 w-100">
+        <div class="col-md-6">
+            <img src="./IMAGE/slay-festival.svg" alt="" width="400px">
         </div>
 
-        <div class="w-25">
+        <div class="col-md-6 text-center mt-5">
             <h3><b>SLAY Festival</b></h3>
             <h5>
                 SLAY Festival is a celebration of culture, innovation and business for African women. Learn from speakers, attend masterclasses, shop from women led businesses, have fun with your girls and meet other fab African women.
-            </h5> <br> <br>
-            <button class="text-light bg-primary border-0" style="padding: 10px 12px; border-radius: 10px;">JOIN THE PARTY</button>
+            </h5> 
+            <center> <button class="text-light bg-primary border-0 p-3 rounded">JOIN THE PARTY</button></center>
+
         </div>
 
     </section> 
 
-    <div>
-        <h2 class="text-center text-primary">Upcoming Events</h2>
-        <div class="w-25 mx-5" style="height: 50px;  box-shadow: 0px 4px 8px 0px grey;"></div>
-    </div> <br> <br>
+    <div class="row w-100">
+      <div class="mt-5 col-md-6 p-4">
+      <div class="w-100" style="height: 50px;  box-shadow: 0px 4px 8px 0px grey;"></div>
+      </div>
+        <div class="col-md-6 mt-5"><h2 class="text-center text-primary">Upcoming Events</h2></div>
+    </div> 
 
-    <section class="she">
+    <section class="p-4 bg-dark mt-5">
         <h4 class="text-light text-center py-4"><b>Join SLA’s community of <br> young, ambitious and <br> vibrant women across <br> Africa <br> Subscribe to our Newsletter</b></h4>
 
         <div>
